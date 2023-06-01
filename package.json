@@ -1,0 +1,21 @@
+{
+  "name": "personal-astrologer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OzzOn1/personal-astrologer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OzzOn1/personal-astrologer/issues"
+  },
+  "homepage": "https://github.com/OzzOn1/personal-astrologer#readme",
+  
+  "type": "module"
+}

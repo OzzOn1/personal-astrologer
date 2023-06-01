@@ -1,0 +1,20 @@
+.headder_nav__list {
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+}
+
+.headder_nav__item {
+    @include styles-link-text();
+
+}
+
+
+.headder_nav {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 42px 137px 92px 42px;
+}
