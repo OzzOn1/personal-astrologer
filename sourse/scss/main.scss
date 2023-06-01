@@ -1,0 +1,14 @@
+//миксины
+@import "mixin.scss";
+//переменные
+@import "variables.scss";
+// общие стили
+@import "global.scss";
+// главный блок обмне
+@import "blocks/about_me.scss";
+// блок шапки
+@import "blocks/headder_nav.scss";
+//шрифты
+@import "fonts.scss";
+
+

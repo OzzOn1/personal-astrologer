@@ -1,0 +1,41 @@
+.about_me {
+    margin-top: 70px;
+    margin-left: 60px;
+    max-width: 1380px;
+    background-color: $about_me_color;
+
+}
+
+.about_me__info {
+    padding-left: 75px;
+}
+
+.about_me__info h2 {
+    padding-left: 105px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.about_me__info h1 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 97px;
+}
+
+.about_me__info p {
+    @include main-text;
+    padding: 0 30px 21px 175px;
+    display: flex;
+    gap: 22px;
+}
+
+.about_me__info-container-flex {
+    display: flex;
+}
+
+.about_me__info-container-flex img {
+    padding-right: 144px;
+    position: relative;
+    top: 30px;
+}
