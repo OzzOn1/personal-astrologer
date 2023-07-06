@@ -1,0 +1,96 @@
+.my-services__title {
+    padding: 105px 0 28px 73px;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 97px;
+    color: #fff;
+}
+
+.my-services {
+    margin: 0 0 0 80px;
+    position: relative;
+
+}
+
+.my-services__list {
+    padding-bottom: 160px;
+    max-width: 1160px;
+    display: grid;
+    justify-items: start;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.my-services-list__item {
+    padding: 50px 38px 47px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: $about_me_color;
+    width: 360px;
+    height: 260px;
+    justify-self: start;
+    z-index: 1;
+}
+
+.my-services-list-item__headder {
+    padding-bottom: 14px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    width: auto;
+}
+
+.my-services-list-item__price {
+    padding-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.my-services-list-item__button-buy {
+    box-sizing: border-box;
+    border: 2px solid rgba(141, 107, 93, 1);
+    background-color: inherit;
+    padding: 16px 90px 17px 90px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.my-services-list-item__button-details {
+    margin-top: 10px;
+    background-color: inherit;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+}
+
+.my-services-list-item__button-details-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #3C2A2A;
+}
+
+.my-services__img {
+    z-index: 0;
+    position: absolute;
+    top: 36.5%;
+    left: 17%;
+    object-fit: cover;
+    overflow: hidden;
+    width: 1084px;
+    height: 1147px;
+    background-image: url('../img/anastsia-list-of-services.jpg');
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+  
+}

@@ -2,13 +2,26 @@
 @import "mixin.scss";
 //переменные
 @import "variables.scss";
-// общие стили
+//общие стили
 @import "global.scss";
+//шрифты
+@import "fonts.scss";
+
+// body
+@import "blocks/body.scss";
 // главный блок обмне
 @import "blocks/about_me.scss";
 // блок шапки
 @import "blocks/headder_nav.scss";
-//шрифты
-@import "fonts.scss";
+// блок услуги
+@import "blocks/services.scss";
+// блок подвал
+@import "blocks/footer.scss";
+// блок перечьня услуг
+@import "blocks/my-services__wrapper";
+@import "blocks/my-services.scss";
+// блок часто задоваемые вопросы
+@import "blocks/questions_wrapper.scss";
 
-
+// блок обучение
+@import "blocks/training-section.scss";

@@ -1,0 +1,81 @@
+.training-section {
+    margin: auto;
+    max-width: 1160px;
+} 
+
+.training-section h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.training-section h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.training-section h3 {
+    padding-left: 107px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.training-section p {
+    @include main-text;
+    color:#504949;
+}
+
+.training__desription-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-repeat: no-repeat ;
+}
+
+.training__desription-padding {
+    padding-bottom: 20px;
+}
+
+.training__desription {
+    max-width: 553px;
+    min-width: auto;
+}
+
+.training__desription-list {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 38px;
+}
+
+.training__desription-item {
+    display: flex;
+    flex-direction: column;
+    
+    span:first-of-type {
+        font-size: 50px;
+    }
+
+    span:last-of-type {
+        padding-right: 40px;
+    }
+}
+
+.training__desription-bonus {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    counter-reset: counter 0;
+    max-width: 477px;
+    padding-left: 40px;
+    padding-top: 20px;
+    position: relative;
+}
+
+.training__desription-bonus p::before {
+    counter-increment: counter  ;
+    content: counter(counter);
+    font-size: 50px;
+    position: absolute;
+    left: 0;
+
+}
