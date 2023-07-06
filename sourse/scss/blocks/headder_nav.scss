@@ -1,3 +1,14 @@
+.headder_nav {
+    padding: 42px 137px 92px 42px;
+    margin: 0 0 0 auto;
+    background-color: $about_me_color;
+    max-width: 1376px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
 .headder_nav__list {
     display: flex;
     flex-direction: row;
@@ -6,15 +17,9 @@
 
 .headder_nav__item {
     @include styles-link-text();
-
-}
-
-
-.headder_nav {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 42px 137px 92px 42px;
+    display: block;
+    &:hover {
+        text-shadow: 0 0 .65px #333, 0 0 .65px #333;
+        transition: .3s;
+    }
 }

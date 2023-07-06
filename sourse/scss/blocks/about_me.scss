@@ -1,13 +1,10 @@
-.about_me {
-    margin-top: 70px;
-    margin-left: 60px;
-    max-width: 1380px;
-    background-color: $about_me_color;
-
-}
-
 .about_me__info {
     padding-left: 75px;
+    margin: 0 0 0 auto;
+    max-width: 1376px;
+    background-color: $about_me_color;
+    position: relative;
+    box-sizing: border-box;
 }
 
 .about_me__info h2 {
@@ -24,18 +21,35 @@
 }
 
 .about_me__info p {
-    @include main-text;
-    padding: 0 30px 21px 175px;
-    display: flex;
-    gap: 22px;
-}
-
-.about_me__info-container-flex {
     display: flex;
 }
+.about_me__info-text {
+    padding-left: 100px;
+}
 
-.about_me__info-container-flex img {
-    padding-right: 144px;
-    position: relative;
-    top: 30px;
+.about_me__info-text-paragrph {
+    padding-bottom: 22px;
+    max-width: 429px;
+}
+
+.about_me__info-wrapper {
+    display: flex;
+}
+
+.about_me__info-wrapper img {
+    position: absolute;
+    transform: translateX(calc(100% + 30px));
+}
+
+.about_me__info-text-grid {
+    padding-bottom: 136px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+}
+
+.about_me__info-text-grid__style1 {
+    font-size: 50px;
+    line-height: 61px; 
+    padding: 0;
 }

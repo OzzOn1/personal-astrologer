@@ -11,71 +11,95 @@
     <link rel="preload" href="./sourse/fonts/Cormorant-Regular.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="./sourse/fonts/Cormorant-SemiBold.woff2" as="font" crossorigin="anonymous">
     <link rel="preload" href="./sourse/fonts/Cormorant-Bold.woff2" as="font" crossorigin="anonymous">
-    <title>Document</title>
 </head>
-<body>
-    <section class="about_me">
-        <div class="about_me__nav headder_nav">
-            <ul class="headder_nav__list">
-                <li class="headder_nav__item"><a href="#">Обо мне</a></li>
-                <li class="headder_nav__item"><a href="#">Мои услуги</a></li>
-                <li class="headder_nav__item"><a href="#">Обучение астрологии</a></li>
-                <li class="headder_nav__item"><a href="#">Марафоны</a></li>
-            </ul>
-            <img class="about_me__logo" src="sourse/img/logo.svg" alt="лого сайта">
-        </div>
-
-        <div class="about_me__info">
-            <div class="about_me__info-container">
-                <h2>Персональный астролог</h2>
-                <h1>Анастасия Шевченко</h1>
-                <div class="about_me__info-container-flex">
-                    <div>
-                        <p>Ежедневно взаимодействую с клиентами через консультации, проведение марафонов. Беспрерывно обучаюсь и совершенствую свои профессиональные навыки.</p>
-                        <p>Мои клиенты нашли любимое дело, увеличили свой доход, счастливы в отношениях и знают, что их ждет в этом году</p>
-                        <p>8 из 10 клиетнтов после первой консультации, возвращаются снова и рекомендуют меня своим друзьям и близким</p>
-                        <p>А вот немного моей практики в числах:</p>
-                        <div class="qq">
-                            <p>10 000 +</p>
-                            <p>4 года +</p>
-                            <p>часов с клиентами</p>
-                            <p>роста в астрологии</p>
+<body class="body">
+    <main class="body__wrapper">
+        <header>
+            <nav class="headder_nav">
+                    <ul class="headder_nav__list">
+                        <li class="headder_nav__item"><a href="./index.html">Обо мне</a></li>
+                        <li class="headder_nav__item"><a href="./list _of_services.html">Мои услуги</a></li>
+                        <li class="headder_nav__item"><a href="./training.html">Обучение астрологии</a></li>
+                        <li class="headder_nav__item"><a href="#">Марафоны</a></li>
+                    </ul>
+                <a href="index.html">
+                    <img class="about_me__logo" src="sourse/img/logo.svg" alt="лого сайта">
+                </a>
+            </nav>
+        </header>
+        
+        <section class="about_me">
+            <div class="about_me__info">
+                <div class="about_me__info-container">
+                    <h2 class="about_me__info-subtitle">Персональный астролог</h2>
+                    <h1 class="about_me__info-title">Анастасия Шевченко</h1>
+                    <div class="about_me__info-wrapper">
+                        <div class="about_me__info-text">
+                            <p class="about_me__info-text-paragrph">Ежедневно взаимодействую с клиентами через консультации, проведение марафонов. Беспрерывно обучаюсь и совершенствую свои профессиональные навыки.</p>
+                            <p class="about_me__info-text-paragrph">Мои клиенты нашли любимое дело, увеличили свой доход, счастливы в отношениях и знают, что их ждет в этом году</p>
+                            <p class="about_me__info-text-paragrph">8 из 10 клиетнтов после первой консультации, возвращаются снова и рекомендуют меня своим друзьям и близким</p>
+                            <p class="about_me__info-text-paragrph">А вот немного моей практики в числах:</p>
+                            <div class="about_me__info-text-grid">
+                                <p class="about_me__info-text-grid__style1">10 000 +</p>
+                                <p class="about_me__info-text-grid__style1">4 года +</p>
+                                <p class="about_me__info-text-grid__style2">часов с клиентами</p>
+                                <p class="about_me__info-text-grid__style2">роста в астрологии</p>
+                            </div>
                         </div>
+                        <img src="sourse/img/anastsia-mian-foto.jpg" width="560" height="671" alt="Личное фото" >
                     </div>
-                    <img src="sourse/img/anastsia-mian-foto.jpg" width="560" height="671" alt="Личное фото" >
                 </div>
             </div>
-
-        </div>
-    </section>
-    <section class="services">
-        <ul class="services__list">
-            <li class="services__item">
-                <p>Перечень моих услуг</p>
-                <img class="arrow" src="">
-            </li>
-            <li class="services__item">
-                <img class="arrow" src="">
-                <p>Обучение астрологии с нуля</p>
-            </li>
-            <li class="services__item">
-                <img class="arrow" src="">
-                <p>Марафоны для вас</p>
-            </li>
-        </ul>
-    </section>
-
-    <section class="footer">
-        <div>Анастасия Вячеславовна Шевченко</div>
-        <a>На главную</a>
-        <a>Design by @kemfetka</a>
-        <ul>
-            <li class="instagramm"></li>
-            <li class="telegramm"></li>
-            <li class="whatsapp"></li>
-        </ul> 
-        <a>Политика конфиденциальности</a>
-        <a>Связаться со мной</a>
-    </section>
+        </section>
+        <section class="services">
+            <ul class="services__list">
+                <li class="services__item">
+                    <a href="./list _of_services.html">
+                        <p class="services__item-text">Перечень моих услуг</p>
+                        <img class="arrow" src="/sourse/img/Arrow.svg" width="30">
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="#"> 
+                        <p class="services__item-text">Обучение астрологии с нуля</p>
+                        <img class="arrow" src="/sourse/img/Arrow.svg" width="30">
+                    </a>
+                </li>
+                <li class="services__item">
+                    <a href="#">
+                        <p class="services__item-text">Марафоны для вас</p>
+                        <img class="arrow" src="/sourse/img/Arrow.svg" width="30">
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <a class="footer_1" href="#">Анастасия Вячеславовна Шевченко</a>
+                <a class="footer_2" href="index.html">На главную</a>
+                <a class="footer_3" href="#">Политика конфиденциальности</a>
+                <ul class="footer-social-list footer_4">
+                    <li class="instagramm">
+                        <a href="#">
+                            <img src="./sourse/img/Inst.svg">
+                        </a>
+                    </li>
+                    <li class="telegramm">
+                        <a href="#">
+                            <img src="./sourse/img/telegramm.svg">
+                        </a>
+                    </li>
+                    <li class="whatsapp">
+                        <a href="#">
+                            <img src="./sourse/img/whatsapp.svg">
+                        </a>
+                    </li>
+                </ul>
+                <a class="footer_5" href="#">Design by @kemfetka</a>
+                <a class="footer_6" href="#">Связаться со мной</a>
+            </div>
+        </footer>
+    </main> 
 </body>
 </html>
